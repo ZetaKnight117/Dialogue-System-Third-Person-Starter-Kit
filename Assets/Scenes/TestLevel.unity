@@ -6047,6 +6047,100 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 586548041}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2112649503
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1895364082}
+    m_Modifications:
+    - target: {fileID: 3594191103014986384, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: conversation
+      value: Civilian in house
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986389, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: animatorController
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 16.775837
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 7.6696553
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 36.364902
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.6696
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986399, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: m_Name
+      value: Civillian in House.
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ea40c9261eaf03644a723872fdbf2d9f, type: 3}
 --- !u!1001 &2117335751
 PrefabInstance:
   m_ObjectHideFlags: 0
