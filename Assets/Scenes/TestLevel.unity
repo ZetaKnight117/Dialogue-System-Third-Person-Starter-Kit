@@ -717,6 +717,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 150277196}
     m_Modifications:
+    - target: {fileID: 3594191103014986384, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: conversation
+      value: AkaiDialouge
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986385, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: conversation
+      value: Akai Barks
+      objectReference: {fileID: 0}
     - target: {fileID: 3594191103014986389, guid: ea40c9261eaf03644a723872fdbf2d9f,
         type: 3}
       propertyPath: animatorController
@@ -4713,6 +4723,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1692734514}
     m_Modifications:
+    - target: {fileID: 3594191103014986384, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: conversation
+      value: James Dialouge
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986385, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: conversation
+      value: JamesBarks
+      objectReference: {fileID: 0}
     - target: {fileID: 3594191103014986389, guid: ea40c9261eaf03644a723872fdbf2d9f,
         type: 3}
       propertyPath: animatorController
