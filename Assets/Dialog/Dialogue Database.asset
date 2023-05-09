@@ -5080,8 +5080,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 531.93616
-        y: 121.9149
+        x: 639.383
+        y: 104.893616
         width: 160
         height: 30
     - id: 4
@@ -5150,8 +5150,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.94000006
+    canvasScrollPosition: {x: 73.59939, y: 23.548534}
+    canvasZoom: 0.7900002
   syncInfo:
     syncActors: 0
     syncItems: 0
