@@ -435,7 +435,7 @@ MonoBehaviour:
       type: 3
       typeString: CustomFieldType_Files
     - title: Description
-      value: 
+      value: He has something to tell me.
       type: 0
       typeString: CustomFieldType_Text
     - title: Success Description
@@ -473,7 +473,7 @@ MonoBehaviour:
       type: 3
       typeString: CustomFieldType_Files
     - title: Description
-      value: 
+      value: Now i know what is in this town.
       type: 0
       typeString: CustomFieldType_Text
     - title: Success Description
@@ -511,7 +511,7 @@ MonoBehaviour:
       type: 3
       typeString: CustomFieldType_Files
     - title: Description
-      value: 
+      value: What's over there?
       type: 0
       typeString: CustomFieldType_Text
     - title: Success Description
@@ -2560,23 +2560,23 @@ MonoBehaviour:
       falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks: []
-      conditionsString: 'SetQuestState("Talk to Heraklios", "success");
+      conditionsString: 
+      userScript: 'SetQuestState("Talk to Heraklios", "success");
 
         SetQuestState("Search
         next to the Mage Tower", "active")'
-      userScript: 
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
+        x: 30.000015
         y: 168.78049
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.8200002
+    canvasScrollPosition: {x: 4.956191, y: 31.088198}
+    canvasZoom: 0.94000006
   - id: 8
     fields:
     - title: Title
