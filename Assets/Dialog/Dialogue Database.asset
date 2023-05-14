@@ -313,7 +313,7 @@ MonoBehaviour:
   - id: 2
     fields:
     - title: Name
-      value: Talk to the Rebel Leader
+      value: The one who fight for good of this town.
       type: 0
       typeString: CustomFieldType_Text
     - title: Pictures
@@ -348,10 +348,22 @@ MonoBehaviour:
       value: True
       type: 2
       typeString: CustomFieldType_Boolean
+    - title: Entry Count
+      value: 1
+      type: 1
+      typeString: CustomFieldType_Number
+    - title: Entry 1 State
+      value: active
+      type: 0
+      typeString: 
+    - title: Entry 1
+      value: '- Talk to Rebel Leader'
+      type: 0
+      typeString: 
   - id: 3
     fields:
     - title: Name
-      value: Talk to your sister Akai
+      value: Curious Sister
       type: 0
       typeString: CustomFieldType_Text
     - title: Pictures
@@ -386,10 +398,22 @@ MonoBehaviour:
       value: True
       type: 2
       typeString: CustomFieldType_Boolean
+    - title: Entry Count
+      value: 1
+      type: 1
+      typeString: CustomFieldType_Number
+    - title: Entry 1 State
+      value: active
+      type: 0
+      typeString: 
+    - title: Entry 1
+      value: '- Talk to your Sister Akai'
+      type: 0
+      typeString: 
   - id: 4
     fields:
     - title: Name
-      value: Find the Rebel Leader's Missing Weapon
+      value: Missing Weapon
       type: 0
       typeString: CustomFieldType_Text
     - title: Pictures
@@ -424,10 +448,30 @@ MonoBehaviour:
       value: True
       type: 2
       typeString: CustomFieldType_Boolean
+    - title: Entry Count
+      value: 2
+      type: 1
+      typeString: CustomFieldType_Number
+    - title: Entry 1 State
+      value: active
+      type: 0
+      typeString: 
+    - title: Entry 1
+      value: Search in Front of the church and get the weapon
+      type: 0
+      typeString: 
+    - title: Entry 2 State
+      value: active
+      type: 0
+      typeString: 
+    - title: Entry 2
+      value: Give Weapon to the Rebel Leader.
+      type: 0
+      typeString: 
   - id: 5
     fields:
     - title: Name
-      value: Talk to Heraklios
+      value: Warning
       type: 0
       typeString: CustomFieldType_Text
     - title: Pictures
@@ -462,10 +506,22 @@ MonoBehaviour:
       value: True
       type: 2
       typeString: CustomFieldType_Boolean
+    - title: Entry Count
+      value: 1
+      type: 1
+      typeString: CustomFieldType_Number
+    - title: Entry 1 State
+      value: active
+      type: 0
+      typeString: 
+    - title: Entry 1
+      value: Talk to Heraklios
+      type: 0
+      typeString: 
   - id: 6
     fields:
     - title: Name
-      value: Return to Heraklios
+      value: The Threat Revealed
       type: 0
       typeString: CustomFieldType_Text
     - title: Pictures
@@ -503,7 +559,7 @@ MonoBehaviour:
   - id: 7
     fields:
     - title: Name
-      value: Search next to the Mage Tower
+      value: The threat the lurks
       type: 0
       typeString: CustomFieldType_Text
     - title: Pictures
@@ -538,10 +594,22 @@ MonoBehaviour:
       value: True
       type: 2
       typeString: CustomFieldType_Boolean
+    - title: Entry Count
+      value: 1
+      type: 1
+      typeString: CustomFieldType_Number
+    - title: Entry 1 State
+      value: active
+      type: 0
+      typeString: 
+    - title: Entry 1
+      value: Search by the Mage tower and see what lurks.
+      type: 0
+      typeString: 
   - id: 8
     fields:
     - title: Name
-      value: Find The Tigers
+      value: Tigers?
       type: 0
       typeString: CustomFieldType_Text
     - title: Pictures
@@ -576,6 +644,18 @@ MonoBehaviour:
       value: True
       type: 2
       typeString: CustomFieldType_Boolean
+    - title: Entry Count
+      value: 1
+      type: 1
+      typeString: CustomFieldType_Number
+    - title: Entry 1 State
+      value: active
+      type: 0
+      typeString: 
+    - title: Entry 1
+      value: Find the tigers.
+      type: 0
+      typeString: 
   locations: []
   variables:
   - id: 1
@@ -592,6 +672,20 @@ MonoBehaviour:
       value: 
       type: 0
       typeString: CustomFieldType_Text
+  - id: 2
+    fields:
+    - title: Name
+      value: HasWeapon
+      type: 0
+      typeString: 
+    - title: Initial Value
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Description
+      value: 
+      type: 0
+      typeString: 
   conversations:
   - id: 1
     fields:
@@ -1497,17 +1591,17 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 'SetQuestState("Talk to your sister Akai", "success");
+      userScript: 'SetQuestState("Curious Sister", "success");
 
-        SetQuestState("Find
-        The Tigers", "active")'
+        SetQuestState("Tigers?",
+        "active")'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
         x: 40
-        y: 166
+        y: 164.86365
         width: 160
         height: 30
     entryGroups: []
@@ -2468,6 +2562,12 @@ MonoBehaviour:
         destinationDialogueID: 1
         isConnector: 0
         priority: 2
+      - originConversationID: 7
+        originDialogueID: 0
+        destinationConversationID: 7
+        destinationDialogueID: 4
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -2545,7 +2645,7 @@ MonoBehaviour:
         destinationDialogueID: 2
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: CurrentQuestState("Warning") == "active"
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -2682,17 +2782,82 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 'SetQuestState("Talk to Heraklios", "success");
+      userScript: 'SetQuestState("Warning", "success");
 
-        SetQuestState("Search
-        next to the Mage Tower", "active")'
+        SetQuestState("The
+        threat the lurks", "active")'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
         x: 30.000015
-        y: 168.78049
+        y: 167.28793
+        width: 160
+        height: 30
+    - id: 4
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 4
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: It would be wise to know what you face.
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 7
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: CurrentQuestState("The threat the lurks") == "active"
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 310.59708
+        y: 25.22387
         width: 160
         height: 30
     entryGroups: []
@@ -3936,6 +4101,12 @@ MonoBehaviour:
         destinationDialogueID: 1
         isConnector: 0
         priority: 2
+      - originConversationID: 11
+        originDialogueID: 0
+        destinationConversationID: 11
+        destinationDialogueID: 11
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -4013,7 +4184,8 @@ MonoBehaviour:
         destinationDialogueID: 3
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: CurrentQuestState("The one who fight for good of this town.")
+        == "active"
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -4193,8 +4365,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Some peron came out of nowhere and decide to take charge of the town
-          and ever since then have put us in terror. '
+        value: 'Some person came out of nowhere and decide to take charge of the
+          town and ever since then have put us in terror. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -4241,7 +4413,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 224.50548
-        y: 178.41156
+        y: 179.84012
         width: 160
         height: 30
     - id: 5
@@ -4629,7 +4801,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: 'Thanks But I can''t find my weapon for some reason. Can you help
-          Find it? '
+          Find it? Last time I had it it was by the church. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -4657,22 +4829,87 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 'SetQuestState("Talk to the Rebel Leader", "success");
+      userScript: 'SetQuestState("The one who fight for good of this town.", "success");
 
-        SetQuestState("Find
-        the Rebel Leader''s Missing Weapon", "active")'
+        SetQuestState("Missing
+        Weapon", "active")'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 617.3853
-        y: 400.72635
+        x: 621.0618
+        y: 403.07928
+        width: 160
+        height: 30
+    - id: 11
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: DId you check by the Church yet?
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 11
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: CurrentQuestState("Missing Weapon") == "active"
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 569.9998
+        y: 8.499992
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 359.60516, y: 247.15338}
-    canvasZoom: 0.85000014
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.4000004
   - id: 12
     fields:
     - title: Title
@@ -5835,17 +6072,17 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 'SetQuestState("Search next to the Mage Tower", "success");
+      userScript: 'SetQuestState("The threat the lurksr", "success");
 
-        SetQuestState("Return
-        to Heraklios", "active")'
+        SetQuestState("The
+        Threat Revealed", "active")'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
         x: 259
-        y: 37
+        y: 36
         width: 160
         height: 30
     entryGroups: []
