@@ -8414,7 +8414,7 @@ PrefabInstance:
     - target: {fileID: 3594191103014986387, guid: ea40c9261eaf03644a723872fdbf2d9f,
         type: 3}
       propertyPath: actor
-      value: Mutant 1
+      value: Mutant Grunt 2
       objectReference: {fileID: 0}
     - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
         type: 3}
