@@ -1448,7 +1448,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: 'SetCinemachineBrain(false);
+
+          Camera(Medium, Akai);
+
+          Delay(4);'
         type: 0
         typeString: 
       conversationID: 3
@@ -1473,7 +1477,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 30
-        y: 70
+        y: 68.86365
         width: 160
         height: 30
     - id: 2
@@ -1591,7 +1595,85 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
+        value: 'SetCinemachineBrain(false);
+
+          Camera(Medium, Akai);
+
+          Delay(4);'
+        type: 0
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 3
+        destinationConversationID: 3
+        destinationDialogueID: 4
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 'SetQuestState("Curious Sister", "success");
+
+        SetQuestState("Tigers?",
+        "active")'
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 40
+        y: 164.86365
+        width: 160
+        height: 30
+    - id: 4
+      fields:
+      - title: Title
         value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: Yeah
         type: 0
         typeString: 
       conversationID: 3
@@ -1612,13 +1694,13 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 40
-        y: 164.86365
+        x: 133.67085
+        y: 217.39526
         width: 160
         height: 30
     entryGroups: []
     canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.8800001
+    canvasZoom: 0.7900002
   - id: 4
     fields:
     - title: Title
@@ -1946,8 +2028,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1
+    canvasScrollPosition: {x: 28.82378, y: 9.147838}
+    canvasZoom: 1.0899999
   - id: 5
     fields:
     - title: Title
@@ -5389,7 +5471,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: 'SetCinemachineBrain(false);
+
+          Camera(Medium, Rebel Leader);
+
+          Delay(3);'
         type: 0
         typeString: 
       conversationID: 11
@@ -5420,8 +5506,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 72.0408
+        x: 28.630142
+        y: 73.988556
         width: 160
         height: 30
     - id: 2
@@ -5467,7 +5553,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: 'Camera(Medium, Player Character); '
         type: 0
         typeString: 
       conversationID: 11
@@ -5491,8 +5577,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 118.90109
+        x: 34.10959
+        y: 113.42163
         width: 160
         height: 30
     - id: 3
@@ -5538,7 +5624,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: 'Camera(Medium, Player Character); '
         type: 0
         typeString: 
       conversationID: 11
@@ -5562,8 +5648,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 257
-        y: 76
+        x: 258.36987
+        y: 78.739746
         width: 160
         height: 30
     - id: 4
@@ -5610,7 +5696,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: 'Camera(Medium, Rebel Leader);
+
+          Delay(3);'
         type: 0
         typeString: 
       conversationID: 11
@@ -5641,7 +5729,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 224.50548
-        y: 179.84012
+        y: 177.10037
         width: 160
         height: 30
     - id: 5
@@ -5687,7 +5775,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: 'Camera(Medium, Player Character); '
         type: 0
         typeString: 
       conversationID: 11
@@ -5711,8 +5799,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 224.50548
-        y: 226.59338
+        x: 225.87535
+        y: 223.85367
         width: 160
         height: 30
     - id: 6
@@ -5758,7 +5846,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: 'Camera(Medium, Player Character); '
         type: 0
         typeString: 
       conversationID: 11
@@ -5782,8 +5870,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 449.95987
-        y: 222.95703
+        x: 452.6996
+        y: 220.21732
         width: 160
         height: 30
     - id: 7
@@ -5830,7 +5918,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: 'Camera(Medium, Rebel Leader);
+
+          Delay(3);'
         type: 0
         typeString: 
       conversationID: 11
@@ -5854,8 +5944,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 308.14175
-        y: 285.68433
+        x: 305.402
+        y: 276.09528
         width: 160
         height: 30
     - id: 8
@@ -5902,7 +5992,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: 'Camera(Medium, Rebel Leader);
+
+          Delay(3);'
         type: 0
         typeString: 
       conversationID: 11
@@ -5926,7 +6018,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 669.95966
+        x: 671.6838
         y: 251.13885
         width: 160
         height: 30
@@ -6045,7 +6137,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: 'Camera(Medium, Rebel Leader);
+
+          Delay(3);'
         type: 0
         typeString: 
       conversationID: 11
@@ -6055,12 +6149,15 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 11
+        originDialogueID: 10
+        destinationConversationID: 11
+        destinationDialogueID: 14
+        isConnector: 0
+        priority: 2
       conditionsString: 
-      userScript: 'SetQuestState("The one who fight for good of this town.", "success");
-
-        SetQuestState("Missing
-        Weapon", "active")'
+      userScript: 
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -6200,9 +6297,77 @@ MonoBehaviour:
         y: 84.285675
         width: 160
         height: 30
+    - id: 14
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 'Of Course. '
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: SetCinemachineBrain(true);
+        type: 0
+        typeString: 
+      conversationID: 11
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 'SetQuestState("The one who fight for good of this town.", "success");
+
+        SetQuestState("Missing
+        Weapon", "active")'
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 639.81177
+        y: 470.26678
+        width: 160
+        height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.4900004
+    canvasScrollPosition: {x: 335.85645, y: 15.433029}
+    canvasZoom: 0.49
   - id: 12
     fields:
     - title: Title
@@ -7734,7 +7899,11 @@ MonoBehaviour:
 
           Camera(Medium, Rebel Leader);
 
-          {(default)};'
+          Delay(4);'
+        type: 0
+        typeString: 
+      - title: Response Menu Sequence
+        value: 
         type: 0
         typeString: 
       conversationID: 17
@@ -7759,7 +7928,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 30
-        y: 70
+        y: 68.50748
         width: 160
         height: 30
     - id: 2
@@ -7807,7 +7976,7 @@ MonoBehaviour:
       - title: Sequence
         value: 'Camera(Medium, James);
 
-          {(default)};'
+          Delay(4);'
         type: 0
         typeString: 
       conversationID: 17
@@ -7831,8 +8000,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 32.352936
-        y: 117.647064
+        x: 33.52942
+        y: 114.117645
         width: 160
         height: 30
     - id: 3
@@ -7878,7 +8047,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: Camera(Medium, Heraklios);
+        value: 'Camera(Medium, Heraklios);
+
+          Delay(4);'
         type: 0
         typeString: 
       conversationID: 17
@@ -7903,7 +8074,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 260.82352
-        y: 134
+        y: 132.82352
         width: 160
         height: 30
     - id: 4
@@ -7967,13 +8138,13 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 263.17648
-        y: 185.17648
+        x: 264.669
+        y: 183.68393
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 10.632891, y: 11.5264225}
-    canvasZoom: 0.85000014
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.6700003
   syncInfo:
     syncActors: 0
     syncItems: 0
