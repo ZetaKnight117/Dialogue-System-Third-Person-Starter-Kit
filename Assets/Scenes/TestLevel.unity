@@ -1691,6 +1691,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1485059945}
     m_Modifications:
+    - target: {fileID: 3594191103014986389, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: animatorController
+      value: 
+      objectReference: {fileID: 9100000, guid: d959c1f02740dc24093e5a1074570e99, type: 2}
     - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
         type: 3}
       propertyPath: m_RootOrder
@@ -2085,6 +2090,16 @@ PrefabInstance:
       propertyPath: animatorController
       value: 
       objectReference: {fileID: 9100000, guid: 87554696e1215dd4da2fc3c449636c05, type: 2}
+    - target: {fileID: 3594191103014986389, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: maxTimeBetweenIdleAnimationChangeRolls
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986389, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: minTimeBetweenIdleAnimationChangeRolls
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
         type: 3}
       propertyPath: m_RootOrder
@@ -4231,6 +4246,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 408069662}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &449643175 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400036, guid: 0faaca137bc5a794098e6b71f8bb22f6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1879714327}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &451508897
 GameObject:
   m_ObjectHideFlags: 0
@@ -4977,7 +4998,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh282576
+  m_Name: pb_Mesh762248
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -5210,8 +5231,7 @@ PrefabInstance:
     - target: {fileID: 11471062, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
       propertyPath: m_prefabs.Array.data[1]
       value: 
-      objectReference: {fileID: 1860548887524214, guid: 6cd14c0b7efe026498de3e3c210f4616,
-        type: 3}
+      objectReference: {fileID: 158168, guid: 1faea9b6a0e6e5544bcc70c3c4579717, type: 3}
     - target: {fileID: 11471062, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
       propertyPath: m_prefabs.Array.data[2]
       value: 
@@ -6146,6 +6166,85 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534664503}
   m_Mesh: {fileID: 4300000, guid: 38fe5d999c893984392b5e35aa1d69c7, type: 3}
+--- !u!1001 &547865817
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 449643175}
+    m_Modifications:
+    - target: {fileID: 3594191103014986384, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: conversation
+      value: Tigers
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986389, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: animatorController
+      value: 
+      objectReference: {fileID: 9100000, guid: 67fdf13761bfc234a8602d6bc1348f5f, type: 2}
+    - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.021561762
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.10893781
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99845254
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.05455202
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.00000002235174
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.010797315
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 6.254
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -0.068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -1.243
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986399, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: m_Name
+      value: Tivar
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ea40c9261eaf03644a723872fdbf2d9f, type: 3}
 --- !u!1 &563601008
 GameObject:
   m_ObjectHideFlags: 0
@@ -6474,7 +6573,7 @@ PrefabInstance:
         type: 3}
       propertyPath: animatorController
       value: 
-      objectReference: {fileID: 9100000, guid: 2ddf460389ff5974e8157b027015a158, type: 2}
+      objectReference: {fileID: 9100000, guid: 35810c4efd5f33f45946d78d5098b9f3, type: 2}
     - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
         type: 3}
       propertyPath: m_RootOrder
@@ -6606,6 +6705,85 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
+--- !u!1001 &594098729
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1247367827}
+    m_Modifications:
+    - target: {fileID: 3594191103014986384, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: conversation
+      value: Tigers
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986389, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: animatorController
+      value: 
+      objectReference: {fileID: 9100000, guid: 67fdf13761bfc234a8602d6bc1348f5f, type: 2}
+    - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.017659178
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.99837565
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.000000008963979
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.054168906
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 2.021
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 173.787
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -180.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986399, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: m_Name
+      value: Shiva
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ea40c9261eaf03644a723872fdbf2d9f, type: 3}
 --- !u!1 &599802753
 GameObject:
   m_ObjectHideFlags: 0
@@ -8233,6 +8411,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 765854538}
     m_Modifications:
+    - target: {fileID: 3594191103014986387, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: actor
+      value: Mutant 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
         type: 3}
       propertyPath: m_RootOrder
@@ -8565,7 +8748,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100036, guid: 0faaca137bc5a794098e6b71f8bb22f6, type: 3}
       propertyPath: m_Name
-      value: tiger_idle
+      value: ShivaNPC
       objectReference: {fileID: 0}
     - target: {fileID: 400036, guid: 0faaca137bc5a794098e6b71f8bb22f6, type: 3}
       propertyPath: m_RootOrder
@@ -11080,6 +11263,12 @@ RectTransform:
   m_AnchoredPosition: {x: 24, y: -3}
   m_SizeDelta: {x: 40, y: 40}
   m_Pivot: {x: 0, y: 1}
+--- !u!4 &1247367827 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400696, guid: 0faaca137bc5a794098e6b71f8bb22f6,
+    type: 3}
+  m_PrefabInstance: {fileID: 861281765}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1253799698
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12434,7 +12623,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 1df91c41c0e85f6439450ad2a2b40caf,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 19.825434
+      value: 38.32
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1df91c41c0e85f6439450ad2a2b40caf,
         type: 3}
@@ -12444,12 +12633,12 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 1df91c41c0e85f6439450ad2a2b40caf,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 49.2463
+      value: 15.999534
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1df91c41c0e85f6439450ad2a2b40caf,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.05107068
+      value: 0.7217986
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1df91c41c0e85f6439450ad2a2b40caf,
         type: 3}
@@ -12459,7 +12648,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 1df91c41c0e85f6439450ad2a2b40caf,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.9986951
+      value: -0.69210315
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1df91c41c0e85f6439450ad2a2b40caf,
         type: 3}
@@ -12474,7 +12663,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 1df91c41c0e85f6439450ad2a2b40caf,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -174.145
+      value: -87.594
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1df91c41c0e85f6439450ad2a2b40caf,
         type: 3}
@@ -14337,6 +14526,16 @@ PrefabInstance:
       propertyPath: animatorController
       value: 
       objectReference: {fileID: 9100000, guid: 0580e3c7211190e41ae6e38474a97e85, type: 2}
+    - target: {fileID: 3594191103014986389, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: maxTimeBetweenIdleAnimationChangeRolls
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986389, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: minTimeBetweenIdleAnimationChangeRolls
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
         type: 3}
       propertyPath: m_RootOrder
@@ -15571,7 +15770,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100036, guid: 0faaca137bc5a794098e6b71f8bb22f6, type: 3}
       propertyPath: m_Name
-      value: tiger_idle (1)
+      value: TivarNPC
       objectReference: {fileID: 0}
     - target: {fileID: 400036, guid: 0faaca137bc5a794098e6b71f8bb22f6, type: 3}
       propertyPath: m_RootOrder
